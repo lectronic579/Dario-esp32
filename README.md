@@ -6,13 +6,13 @@ Proyecto modificado del Flappy bird ESP32 para mi hijo Dario.
 - Dificultad progresiva.
 - Pantalla grande de 2,4" con driver ST7789.
 - Único botón para TODO.
-- Sonido por Buzzer ligeramente aumentado con transistor BC547, resistencia de 330 ohms y condensador de 100 uF.
+- Sonido por Buzzer ligeramente aumentado por BC547, resistencia 330 ohms y condensador 100 uF.
 - Gracias a la IA de Gemini por el trabajito realizado.
 
 - Esquema Detallado de Conexiones.
 ________________________________________
 
-- 1. Sistema de Audio (Amplificado).
+- Sistema de Audio (Amplificado).
 - Esta es la parte crítica para que el volumen sea máximo.
 •	Buzzer (+): Conectado a pin VIN (5V).
 •	Buzzer (-): Conectado a Colector del BC547.
@@ -21,7 +21,7 @@ o	Base: Resistencia de 330 ohms y a Pin 12.
 o	Emisor: Directo a GND.
 •	Condensador (100 uF): Entre VIN y GND.
 
-- 2. Pantalla TFT (ST7789).
+- Pantalla TFT (ST7789).
 - Sigue este orden de pines para que coincida con tu código:
 •	GND: GND.
 •	VCC: VIN (5 V).
@@ -32,6 +32,6 @@ o	Emisor: Directo a GND.
 •	CS (Chip Select): Pin 5.
 •	BL (Backlight): Pin 21.
 
-- 3. Entrada de Control (Botón).
+- Entrada de Control (Botón).
 •	Pin 1: Al Pin 13.
 •	Pin 2: A GND.
