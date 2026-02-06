@@ -8,6 +8,11 @@ Proyecto modificado del Flappy bird ESP32 para mi hijo Dario.
 - Único botón para TODO.
 - Sonido por Buzzer ligeramente aumentado por BC547, resistencia 330 ohms y condensador 100 uF.
 - Gracias a la IA de Gemini por el trabajito realizado.
+- Proyecto de ingeniería de videojuegos para microcontroladores totalmente funcional.
+- Gestión de memoria (EEPROM) para el récord.
+- Física de partículas (el viento) y gravedad.
+- Optimización de hardware (SPI estable).
+- Interfaz dinámica (centrado perfecto y rangos de honor).
 
 
 ________________________________________
